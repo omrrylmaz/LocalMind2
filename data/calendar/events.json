@@ -1,0 +1,22 @@
+[
+  {
+    "event": "Diş Hekimi Randevusu",
+    "date": "2023-10-27 15:00",
+    "location": "Dentist Plaza"
+  },
+  {
+    "event": "Yazılım Ekibi Daily",
+    "date": "2023-10-27 09:30",
+    "location": "Google Meet"
+  },
+  {
+    "event": "Ahmet Doğum Günü",
+    "date": "2023-10-28 20:00",
+    "location": "Kadıköy"
+  },
+  {
+    "event": "su faturası ödeme günü",
+    "date": "2023-10-28 20:00",
+    "location": "banka uygulaması"
+  }
+]

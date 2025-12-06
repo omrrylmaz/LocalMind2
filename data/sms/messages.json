@@ -1,0 +1,17 @@
+[
+  {
+    "from": "+905551112233",
+    "date": "2023-10-25 09:30",
+    "content": "Selam, bugünkü toplantı saat 14:00'e alındı, bilgin olsun."
+  },
+  {
+    "from": "KargoSirketi",
+    "date": "2023-10-25 10:15",
+    "content": "Kargonuz yola çıktı. Takip No: 123456789"
+  },
+  {
+    "from": "Ayse",
+    "date": "2023-10-26 19:00",
+    "content": "Yarın akşam sinemaya gidiyor muyuz?"
+  }
+]

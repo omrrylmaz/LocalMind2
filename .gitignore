@@ -1,0 +1,46 @@
+# .gitignore dosyası
+
+# 1. HASSAS VERİLER
+###################
+.env                  # API Anahtarlarını içeren dosya
+
+# 2. SANAL ORTAM
+###################
+# Python sanal ortam klasörleri
+venv/
+env/
+.venv/
+*/.venv/
+
+# 3. PYTHON ÇIKTILARI VE ÖNBELLEK
+###################################
+__pycache__/
+*.pyc                 # Derlenmiş Python dosyaları
+*.orig                # Çakışma dosyaları
+.ipynb_checkpoints    # Jupyter Notebook önbelleği
+
+# 4. VERİTABANI VE LOGLAR
+############################
+# ChromaDB vektör veritabanı (Çok büyük boyutlu ve tekrar oluşturulabilir)
+chroma_db/
+*.log
+
+# 5. İŞLETİM SİSTEMİ ve VSCODE ÇIKTILARI
+##########################################
+# macOS dosyaları
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# VSCode Geçici Dosyaları
+.vscode/*.log
+
+
+# git push 
+git add . 
+
+git status
+
+git commit -m "first commit"
+git push

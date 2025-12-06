@@ -1,0 +1,3 @@
+Proje fikri: Kişisel asistan yapan bir RAG sistemi. Hugging Face kullanılacak.
+
+Gezi fikri : Bursa'nın tarihi yerlerini gez. 

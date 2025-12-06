@@ -20,7 +20,6 @@ Projemiz, geleneksel RAG sistemlerinin aksine, veritabanına sorgu göndermeden 
     * **Görevi:** Kullanıcı sorusunu analiz edip bir **arama emri** vermek.
     * **İşleyiş:** `src/agent.py` içindeki LLM (Qwen/Hugging Face) ilk olarak, sadece filtreleri ve aranacak anahtar kelimeyi içeren bir **JSON** çıktısı üretmeye zorlanır. *Örnek: Kullanıcı "Patrondan gelen mailler" dediğinde, JSON çıktısı `{"source": "email", "sender": "patron@sirket.com"}` olur.* 
 
-[Image of LLM router architecture]
 
 
 3.  **Akıllı Arama (Filtreli Retrieval):**

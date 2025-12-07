@@ -9,6 +9,10 @@ Sistem, basit anahtar kelime araması yapmak yerine, kullanıcının niyetini (�
 
 ##  Mimarinin Çalışma Mantığı (Advanced RAG)
 
+![Ekran görüntüsü 2025-12-07 104203](https://github.com/user-attachments/assets/99cc42b8-3edd-4fa5-9b18-707a916c2557)
+
+
+
 Projemiz, geleneksel RAG sistemlerinin aksine, veritabanına sorgu göndermeden önce yapay zekayı bir **"Router" (Yönlendirici)** olarak kullanır. Bu sayede sadece aranan konuyla ilgili dosyalara bakılır, böylece cevaplar temizlenir ve halüsinasyon riski ortadan kalkar.
 
 1.  **Veri Mühendisliği ve Metadata (Türkçe BERT):**
